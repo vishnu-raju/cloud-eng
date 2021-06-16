@@ -30,7 +30,7 @@ jobs:
         run: make install
       - name: Format files
         run: make format
-      - name: testing
+      - name: Run unit tests
         run: make test
 
     
